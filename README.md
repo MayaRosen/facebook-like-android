@@ -4,10 +4,12 @@ Welcome to the **Facebook Android Application**!📱
 
 This project is an Android app built using Android Studio to deliver an intuitive and interactive mobile social media platform inspired by Facebook. It allows users to connect, share updates, and interact seamlessly, providing a complete mobile experience.
 
-In addition to this Android app, there are separate repositories in this GitHub for:
+This project is part of a larger system that includes:
+- [React Frontend Repository](https://github.com/your-username/react-frontend)
+- [Backend Server Repository](https://github.com/your-username/backend-server)
 
-  * The Server: Handles the backend logic and APIs.
-  * The React Frontend: A web-based user interface offering similar functionality for desktop users.
+Together, these repositories create a fully functional system for web and mobile platforms.
+
 
 ## **Development Journey**
 
@@ -44,29 +46,22 @@ To run this project locally, ensure that **Node.js** and **npm** are installed o
 
 ### Login
 ![image](https://github.com/user-attachments/assets/da198360-9343-48c2-8473-4bd7acfc709a)
+
 _A preview of the login page._
 
 ### Homepage
 ![image](https://github.com/user-attachments/assets/4683431c-68b1-43d9-8190-83c5a63f45c4)
+
 _A preview of the homepage._
 
 ### Private account
 ![image](https://github.com/user-attachments/assets/b59b8f67-0630-4df5-a724-7e5cbba59ef7)
+
 _A preview of a user's private account._
 
 ### Friends and Friend Requests
 ![image](https://github.com/user-attachments/assets/5d39ebf9-559c-46ab-bfe6-8d8e1d58646d)
+
 _A preview of a user's personal friends and friend requests._
-
-
-## **Exploring the Entire System**
-This repository is part of a complete system that includes:
-
-* The Backend Server Repository
-* The React Frontend Repository
-
-Visit these repositories to explore the backend and react web components of the project.
-
----
 
 ## **Enjoy!**
