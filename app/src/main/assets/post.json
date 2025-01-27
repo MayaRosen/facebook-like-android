@@ -1,0 +1,85 @@
+[
+  {
+    "id" : 1,
+    "profilePic" : "profile1",
+    "title" : "Noga",
+    "postText" : "beautiful day today",
+    "img" : "beach",
+    "comments" : []
+  },
+  {
+    "id" : 2,
+    "profilePic" : "profile2",
+    "title" : "Maya",
+    "postText" : "My new purchase :)",
+    "img" : "car",
+    "comments" : []
+  },
+  {
+    "id" : 3,
+    "profilePic" : "profile3",
+    "title" : "Ahiya",
+    "postText" : "some family time",
+    "img" : "family",
+    "comments" : []
+  },
+  {
+    "id" : 4,
+    "profilePic" : "profile4",
+    "title" : "Keren",
+    "postText" : "finally on vacation",
+    "img" : "paris",
+    "comments" : []
+  },
+  {
+    "id" : 5,
+    "profilePic" : "profile1",
+    "title" : "Yael",
+    "postText" : "so sweet",
+    "img" : "puppy",
+    "comments" : []
+  },
+  {
+    "id" : 6,
+    "profilePic" : "profile2",
+    "title" : "Lenny",
+    "postText" : "yummm ;)",
+    "img" : "sushi",
+    "comments" : []
+  },
+  {
+    "id" : 7,
+    "profilePic" : "profile3",
+    "title" : "Pheobe",
+    "postText" : "lovely day today",
+    "img" : "nature",
+    "comments" : []
+  },
+  {
+    "id" : 8,
+    "profilePic" : "profile4",
+    "title" : "Maya",
+    "postText" : "amazing",
+    "img" : "sunset",
+    "comments" : []
+  },
+  {
+    "id" : 9,
+    "profilePic" : "profile1",
+    "title" : "Noga",
+    "postText" : "missed the city",
+    "img" : "city",
+    "comments" : []
+  },
+  {
+    "id" : 10,
+    "profilePic" : "profile2",
+    "title" : "Ahiya",
+    "postText" : "lovely music",
+    "img" : "concert",
+    "comments" : []
+  }
+
+]
+
+

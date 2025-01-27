@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="heading_color">#007BFF</color>
+    <color name="hint_color">#555555</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="link_color">#007BFF</color>
+    <color name="blue_primary">#2196F3</color>
+    <color name="blue_primary_variant">#1976D2</color>
+    <color name="blue_secondary">#03A9F4</color>
+    <color name="blue_secondary_variant">#0288D1</color>
+    <color name="blue_window_background">#E3F2FD</color>
+    <color name="blue_shade_1">#DBECF4</color>
+    <color name="blue_shade_2">#CADEED</color>
+    <color name="blue_shade_3">#B7D0E1</color>
+    <color name="blue_shade_4">#91AEC4</color>
+    <color name="blue_shade_5">#5F84A2</color>
+    <color name="blue_shade_6">#194569</color>
+    <color name="circle_purple">#E74CF8</color>
+    <color name="circle_green">#55F2AB</color>
+    <color name="edit_text_gray">#D8D6D6</color>
+    <color name="edit_text_dark_gray">#A8A8A8</color>
+    <color name="red">#FF0000</color>
+    <color name="background_gray">#E6E5E5</color>
+    <color name="background_dark_gray">#383838</color>
+    <color name="dark_background_color">#222222</color>
+    <color name="light_text_color">#FFFFFF</color>
+    <color name="light_background_color">#FFFFFF</color>
+    <color name="dark_text_color">#222222</color>
+    <color name="postsBackgroundColor">@color/dark_background_color</color>
+    <color name="darker_gray">#aaa</color>
+</resources>

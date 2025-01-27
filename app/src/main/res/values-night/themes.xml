@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Foobar_Android" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/circle_green</item>
+        <item name="colorPrimaryVariant">@color/circle_green</item>
+        <item name="colorSecondary">@color/circle_green</item>
+        <item name="colorSecondaryVariant">@color/circle_green</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="PostsBackGround">@color/postsBackgroundColor</item>
+        <item name="MenusBackGround">@color/black</item>
+        <item name="MenusText">@color/white</item>
+
+
+        <!-- Customize your dark theme here. -->
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/background_gray</item>
+        <item name="android:colorControlNormal">@color/background_gray</item>
+        <item name="android:colorControlHighlight">@color/edit_text_dark_gray</item>
+        <item name="android:listViewStyle">@color/black</item>
+    </style>
+    <style name="ListViewStyle" parent="Widget.AppCompat.ListView">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:divider">#999</item>
+        <item name="android:dividerHeight">2dp</item>
+    </style>
+    <style name="contactBackGrounds">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:background">@color/dark_background_color</item>
+        <item name="android:textColor">@color/light_text_color</item>
+    </style>
+
+
+</resources>

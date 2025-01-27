@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="?attr/MenusBackGround">
+
+<!--home icon-->
+    <ImageView
+        android:id="@+id/icon_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_action_name"
+        android:contentDescription="home" />
+
+<!--    play icon-->
+    <ImageView
+        android:id="@+id/icon_play"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_play"
+        android:contentDescription="play" />
+
+<!--    people icon-->
+    <ImageView
+        android:id="@+id/icon_people"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_people"
+        android:contentDescription="people" />
+
+<!--market place icon-->
+    <ImageView
+        android:id="@+id/icon_market_place"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_market_place"
+        android:contentDescription="market_place" />
+
+<!--    notification icon-->
+    <ImageView
+        android:id="@+id/icon_notifications"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_bell"
+        android:contentDescription="bell" />
+
+<!--    menu icon-->
+    <ImageView
+        android:id="@+id/icon_menu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_menu"
+    android:contentDescription="menu" />
+
+</LinearLayout>
