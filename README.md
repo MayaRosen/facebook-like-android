@@ -5,8 +5,8 @@ Welcome to the **Facebook Android Application**!📱
 This project is an Android app built using Android Studio to deliver an intuitive and interactive mobile social media platform inspired by Facebook. It allows users to connect, share updates, and interact seamlessly, providing a complete mobile experience.
 
 This project is part of a larger system that includes:
-- [React Frontend Repository](https://github.com/your-username/react-frontend)
-- [Backend Server Repository](https://github.com/your-username/backend-server)
+- [React Frontend Repository](https://github.com/MayaRosen/facebook-like-web)
+- [Backend Server Repository](https://github.com/MayaRosen/facebook-like-server)
 
 Together, these repositories create a fully functional system for web and mobile platforms.
 
