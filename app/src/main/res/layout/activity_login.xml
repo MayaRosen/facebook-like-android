@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/log_container"
+        android:layout_width="match_parent"
+        android:layout_height="412dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:text="          Welcome\n       Please log in"
+            android:textColor="@color/heading_color"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- EditText for Username -->
+
+        <EditText
+            android:id="@+id/etusername"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rounded_edittext_background"
+            android:gravity="center"
+            android:hint="Username"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hint_color" />
+        <!-- EditText for Password -->
+
+        <EditText
+            android:id="@+id/etpassword"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etusername"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rounded_edittext_background"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hint_color" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background"
+            android:text="Login"
+            android:textColor="@color/button_text_color" />
+
+
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Not registered yet? Click here to register"
+            android:textColor="@color/link_color" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

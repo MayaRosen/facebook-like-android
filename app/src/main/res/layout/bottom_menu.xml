@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/MenusBackGround"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!--home icon-->
+    <ImageView
+        android:id="@+id/icon_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="home"
+        android:src="@drawable/ic_action_name" />
+
+    <!--    play icon-->
+    <ImageView
+        android:id="@+id/icon_play"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="play"
+        android:src="@drawable/ic_play" />
+
+    <!--    people icon-->
+    <ImageView
+        android:id="@+id/icon_people"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="people"
+        android:src="@drawable/ic_people" />
+
+    <!--market place icon-->
+    <ImageView
+        android:id="@+id/icon_market_place"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="market_place"
+        android:src="@drawable/ic_market_place" />
+
+    <!--    notification icon-->
+    <ImageView
+        android:id="@+id/icon_notifications"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="bell"
+        android:src="@drawable/ic_bell" />
+
+    <!--    myProfile icon-->
+    <ImageView
+        android:id="@+id/icon_person"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="person"
+        android:src="@drawable/ic_person" />
+
+    <!--    menu icon-->
+    <ImageView
+        android:id="@+id/icon_menu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="menu"
+        android:src="@drawable/ic_menu" />
+
+</LinearLayout>

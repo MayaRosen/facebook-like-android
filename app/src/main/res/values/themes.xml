@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!-- Base application theme. -->
+<style name="Base.Theme.Foobar_Android" parent="Theme.Material3.DayNight.NoActionBar">
+    <item name="colorPrimary">@color/blue_primary</item>
+    <item name="colorPrimaryVariant">@color/blue_primary_variant</item>
+    <item name="colorSecondary">@color/blue_secondary</item>
+    <item name="colorSecondaryVariant">@color/blue_secondary_variant</item>
+    <item name="android:windowBackground">@color/blue_window_background</item>
+    <item name="PostsBackGround">@color/white</item>
+    <item name="MenusBackGround">@color/white</item>
+    <item name="MenusText">@color/black</item>
+
+</style>
+<style name="ListViewStyle" parent="Widget.AppCompat.ListView">
+    <item name="android:windowBackground">@android:color/white</item>
+    <item name="android:divider">#ccc</item>
+    <item name="android:dividerHeight">1dp</item>
+</style>
+<style name="contactBackGrounds">
+    <item name="android:windowBackground">@color/white</item>
+    <item name="android:background">@color/light_background_color</item>
+    <item name="android:textColor">@color/dark_text_color</item>
+</style>
+</resources>

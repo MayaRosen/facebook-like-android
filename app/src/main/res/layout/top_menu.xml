@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/MenusBackGround"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:gravity="center_vertical">
+
+<!--        logo-->
+        <TextView
+            android:id="@+id/FooBarLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FooBar"
+            android:layout_marginEnd="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue_primary_variant"
+            android:textSize="35dp"
+            android:layout_weight="1"
+            />
+
+<!--        space between logo and icons-->
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+<!--            add night and day mode-->
+            <ImageView
+                android:id="@+id/shiftButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_night"
+                android:contentDescription="shift"
+                android:layout_marginEnd="16dp"
+                 />
+
+<!--        add icon-->
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add"
+            android:contentDescription="add"
+            android:layout_marginEnd="16dp"
+            />
+
+
+<!--    search icon-->
+        <ImageView
+        android:id="@+id/icon_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_search"
+        android:contentDescription="search"
+        android:layout_marginEnd="16dp" />
+
+<!--    chat icon-->
+        <ImageView
+        android:id="@+id/icon_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_chat"
+        android:contentDescription="chat" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="16dp">
+
+        <!-- Profile picture -->
+        <ImageView
+            android:id="@+id/profile_picture"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="profile_picture"
+            android:padding="8dp"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop" />
+
+        <!-- Greeting text -->
+        <TextView
+            android:id="@+id/greeting_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:layout_marginEnd="16dp"
+            android:textColor="?attr/MenusText" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textSize="15sp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:radius="20dp"
+            android:background="@color/blue_primary"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</LinearLayout>

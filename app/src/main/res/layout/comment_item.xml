@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="16dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginEnd="8dp"
+    android:background="@android:color/darker_gray">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <!-- Profile picture -->
+        <ImageView
+            android:id="@+id/comment_profile_pic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:contentDescription="comment_profile_pic"/>
+
+        <!-- Post writer name -->
+        <TextView
+            android:id="@+id/comment_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/comment_profile_pic"
+            android:layout_marginStart="8dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/comment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="my night off."
+        android:padding="16dp"/>
+
+    <!-- New RelativeLayout for positioning delete and edit buttons -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Edit button -->
+        <ImageView
+            android:id="@+id/comment_edit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit"
+            android:contentDescription="edit_comment"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp"/>
+
+        <!-- Delete button -->
+        <ImageView
+            android:id="@+id/comment_delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"
+            android:contentDescription="delete_comment"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

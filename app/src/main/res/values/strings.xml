@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Foobar_Android</string>
+    <string name="et_password_login">password</string>
+    <string name="et_username_login">username</string>
+    <string name="btn_login">Button</string>
+    <string name="btn_signup_login">Button</string>
+    <string name="et_username_signup">username</string>
+    <string name="et_password_signup">password</string>
+    <string name="et_verify_password_signup">verify password</string>
+    <string name="et_nickname_signup">nickname</string>
+    <string name="btn_signup_signup">signup</string>
+    <string name="post_username">username</string>
+    <string name="tv_when_posted_post">when_posted</string>
+    <string name="post_likes">likes</string>
+    <string name="post_image">post_image</string>
+</resources>

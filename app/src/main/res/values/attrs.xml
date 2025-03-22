@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="PostsBackGround" format="reference|color"/>
+    <attr name="MenusBackGround" format="reference|color"/>
+    <attr name="MenusText" format="reference|color"/>
+    <!-- Add other custom attributes if needed -->
+</resources>

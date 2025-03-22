@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activities.EditProfileActivity">
+
+    <!-- Edit Post Headline -->
+    <TextView
+        android:id="@+id/tvEditPostHeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- EditText for Nickname -->
+    <EditText
+        android:id="@+id/nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nickname"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:padding="12dp"/>
+
+    <!-- EditText for Password -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Image File Chooser -->
+    <Button
+        android:id="@+id/btnChooseImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="choose_image"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Button for save -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save changes"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+
+    <!-- display the selected image -->
+    <ImageView
+        android:id="@+id/selected_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="image_description"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"/>
+
+
+</LinearLayout>
