@@ -1,46 +1,68 @@
-Our workflow:
-At first we opened a JIRA project and divided the work between us.
-We decided as recommended in the project instructions that we will work both on the Android and web versions so we are knowledgeable in both.
+# **Facebook-Like Android Application**
 
-In order to run the android version start the emulator through android studio. 
+Welcome to the **Facebook Android Application**!📱
 
-Foobar will open on the Login page
-![1-min](https://github.com/NogaBenAvraham/Foobar_Android/assets/114875342/3cc4b0ad-da88-4bfb-bcbf-f6b58014961a)
-If a user didnt register he can first sign up
-![12](https://github.com/NogaBenAvraham/Foobar_Android/assets/114875342/de6d55e5-9b45-4f24-a82c-44b92f83e9f0)
+This project is an Android app built using Android Studio to deliver an intuitive and interactive mobile social media platform inspired by Facebook. It allows users to connect, share updates, and interact seamlessly, providing a complete mobile experience.
 
-After successful login user can see its feepgage
-![2-min](https://github.com/NogaBenAvraham/Foobar_Android/assets/114875342/68a72f47-6409-4d02-9b3b-c0288b5d199f)
+This project is part of a larger system that includes:
+- [React Frontend Repository](https://github.com/MayaRosen/facebook-like-web)
+- [Backend Server Repository](https://github.com/MayaRosen/facebook-like-server)
+- [Bloomfilter Service](https://github.com/MayaRosen/facebook-like-bloomfilter)
 
-If a user sees a profile he is intersteed in he can go to his page. if he doesnt follow him the account will be private and he can send a friend request
-![4-min](https://github.com/NogaBenAvraham/Foobar_Android/assets/114875342/5c6f2a61-62c7-47e2-a056-1d4f773b1a9c)
+Together, these repositories create a fully functional system for web and mobile platforms.
 
-After they are friends they can see each others details!
-![5-min](https://github.com/NogaBenAvraham/Foobar_Android/assets/114875342/d6fc3f7e-8f95-4d2a-8edb-4280a41122b5)
 
-A user can view his own details as well
-![6-min](https://github.com/NogaBenAvraham/Foobar_Android/assets/114875342/278293e2-774c-448d-b8de-552e51825d9c)
+## **Development Journey**
 
-There he can view his friend requests
-![8-min](https://github.com/NogaBenAvraham/Foobar_Android/assets/114875342/084ac7e0-6a09-4de2-ba97-7f8041898c66)
+- **Foundation:**
+We began by creating UI designs to map out the structure and layout of the app. These early prototypes ensured an intuitive flow for users and helped establish the app’s aesthetic.
 
-And approve them!
-![9-min](https://github.com/NogaBenAvraham/Foobar_Android/assets/114875342/68ad781c-1b4a-4f03-a176-6d429c7716ad)
+- **Building Core Features:**
+Utilizing Android Studio, we developed the core functionality of the app step by step. This included implementing user authentication, profile customization, and post interactions.
 
-It is also possible to create new posts
-![7-min](https://github.com/NogaBenAvraham/Foobar_Android/assets/114875342/602c8fc7-3b19-43d8-a06f-523c1e3f1667)
+- **Polishing and Testing:**
+After feature implementation, we iteratively refined the design and conducted testing to enhance the performance and user experience. The result is a seamless, user-friendly, and visually appealing application.
 
-Delete preivous posts from profile page
-![11-min](https://github.com/NogaBenAvraham/Foobar_Android/assets/114875342/eb30c026-3875-4cbc-a9d5-3a57812ffdfa)
 
-And Edit posts from the profile page
-![11](https://github.com/NogaBenAvraham/Foobar_Android/assets/114875342/ed38328e-cb3b-48d8-8930-3bcc5b6a1714)
+## **Key Features**
+- **User Authentication:** Secure sign-up, login, and logout functionality for users.
+  
+- **Profile Customization:** Users can create and edit their profiles, including adding profile pictures and personal details.
+  
+- **Posting and Interactions:** Users can create posts, like posts, and add comments to share thoughts and connect with others.
+  
+- **Friendship Connections:** Users can search for and connect with others by sending and accepting friend requests.
 
-Regret the details you entered when you logen in? no problem! you can edit them
-![13](https://github.com/NogaBenAvraham/Foobar_Android/assets/114875342/522381cb-c79c-4156-8cff-48a3225b9e45)
+## **Running the Program**
 
-If you prefer using dark moede, you can do that with out app
-![3-min](https://github.com/NogaBenAvraham/Foobar_Android/assets/114875342/5536007c-39f7-4a73-8093-42435e8363dc)
-![14](https://github.com/NogaBenAvraham/Foobar_Android/assets/114875342/71819f96-c2a6-4993-8a47-4f3f74dea41e)
+To run this project locally, ensure that **Node.js** and **npm** are installed on your machine. Then follow these steps:
 
-Enjoy the app
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MayaRosen/facebook-like-android.git
+2. Open the cloned project in Android Studio
+3. Run the App
+
+ ## **Visualisations**
+
+### Login
+![image](https://github.com/user-attachments/assets/da198360-9343-48c2-8473-4bd7acfc709a)
+
+_A preview of the login page._
+
+### Homepage
+![image](https://github.com/user-attachments/assets/4683431c-68b1-43d9-8190-83c5a63f45c4)
+
+_A preview of the homepage._
+
+### Private account
+![image](https://github.com/user-attachments/assets/b59b8f67-0630-4df5-a724-7e5cbba59ef7)
+
+_A preview of a user's private account._
+
+### Friends and Friend Requests
+![image](https://github.com/user-attachments/assets/5d39ebf9-559c-46ab-bfe6-8d8e1d58646d)
+
+_A preview of a user's personal friends and friend requests._
+
+## **Enjoy!**
